@@ -23,7 +23,7 @@ import org.tio.core.ChannelContext;
 /**
  * 版本: [1.0]
  * 功能说明: 
- * 作者: WChao 创建时间: 2017年8月8日 上午9:08:48
+ * 作者: Leo Yang 创建时间: 2017年8月8日 上午9:08:48
  */
 @RequestPath(value = "/api")
 public class HttpApiController {

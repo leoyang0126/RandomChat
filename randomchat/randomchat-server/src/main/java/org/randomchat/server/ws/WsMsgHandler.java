@@ -17,7 +17,7 @@ import org.randomchat.common.ws.WsRequestPacket;
 import org.randomchat.common.ws.WsResponsePacket;
 import org.randomchat.common.ws.WsServerConfig;
 /**
- * @author WChao 
+ * @author Leo Yang 
  * 2017年6月28日 下午5:32:38
  */
 public class WsMsgHandler implements IWsMsgHandler{
@@ -31,7 +31,7 @@ public class WsMsgHandler implements IWsMsgHandler{
 	 * @param text
 	 * @param channelContext
 	 * @return 可以是WsResponsePacket、String、null
-	 * @author: WChao
+	 * @author: Leo Yang
 	 */
 	@Override
 	public Object onText(WsRequestPacket wsRequestPacket, String text, ChannelContext channelContext) throws Exception {
@@ -54,7 +54,7 @@ public class WsMsgHandler implements IWsMsgHandler{
 	 * @param bytes
 	 * @param channelContext
 	 * @return 可以是WsResponsePacket、byte[]、ByteBuffer、null
-	 * @author: WChao
+	 * @author: Leo Yang
 	 */
 	@Override
 	public Object onBytes(WsRequestPacket websocketPacket, byte[] bytes, ChannelContext channelContext) throws Exception {
@@ -70,7 +70,7 @@ public class WsMsgHandler implements IWsMsgHandler{
 	 * @param channelContext
 	 * @return
 	 * @throws Exception
-	 * @author: WChao
+	 * @author: Leo Yang
 	 */
 	public WsResponsePacket handler(ImPacket imPacket, ChannelContext channelContext)throws Exception {
 		WsRequestPacket wsRequest = (WsRequestPacket)imPacket;
@@ -151,7 +151,7 @@ public class WsMsgHandler implements IWsMsgHandler{
 
 	/**
 	 * 
-	 * @author: WChao
+	 * @author: Leo Yang
 	 */
 	public WsMsgHandler(WsServerConfig wsServerConfig, String[] scanPackages) {
 		this.setWsServerConfig(wsServerConfig);

@@ -15,7 +15,7 @@ import org.tio.utils.thread.pool.DefaultThreadFactory;
 import org.tio.utils.thread.pool.SynThreadPoolExecutor;
 
 /**
- * @author WChao
+ * @author Leo Yang
  *
  */
 public class ImServerGroupContext extends ServerGroupContext {

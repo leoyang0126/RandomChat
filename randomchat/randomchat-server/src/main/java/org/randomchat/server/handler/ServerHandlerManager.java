@@ -15,7 +15,7 @@ import org.tio.core.ChannelContext;
 /**
  * 版本: [1.0]
  * 功能说明: 
- * 作者: WChao 创建时间: 2017年8月3日 下午2:40:24
+ * 作者: Leo Yang 创建时间: 2017年8月3日 下午2:40:24
  */
 @SuppressWarnings("unchecked")
 public class ServerHandlerManager{

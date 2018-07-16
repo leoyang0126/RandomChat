@@ -9,7 +9,7 @@ import org.randomchat.common.packets.UserMessageData;
 
 /**
  * Mysql获取持久化+同步消息助手;
- * @author WChao
+ * @author Leo Yang
  * @date 2018年4月10日 下午4:06:26
  */
 public class MysqlMessageHelper implements IMesssageHelper {

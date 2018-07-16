@@ -1,7 +1,7 @@
 package org.randomchat.server.handler;
 import java.util.Properties;
 /**
- * @author WChao
+ * @author Leo Yang
  * @date 2018年3月9日 上午1:09:03
  */
 public class ServerHandlerConfiguration {

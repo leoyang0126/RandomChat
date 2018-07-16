@@ -35,7 +35,7 @@ import cn.hutool.core.util.ClassUtil;
 
 /**
  *
- * @author WChao
+ * @author Leo Yang
  *
  */
 public class DefaultHttpRequestHandler implements IHttpRequestHandler {
@@ -58,7 +58,7 @@ public class DefaultHttpRequestHandler implements IHttpRequestHandler {
 	/**
 	 * @param args
 	 *
-	 * @author WChao
+	 * @author Leo Yang
 	 * 2016年11月18日 上午9:13:15
 	 *
 	 */
@@ -78,7 +78,7 @@ public class DefaultHttpRequestHandler implements IHttpRequestHandler {
 	/**
 	 *
 	 * @param httpConfig
-	 * @author WChao
+	 * @author Leo Yang
 	 */
 	public DefaultHttpRequestHandler(HttpConfig httpConfig) {
 		this.httpConfig = httpConfig;
@@ -93,7 +93,7 @@ public class DefaultHttpRequestHandler implements IHttpRequestHandler {
 	 *
 	 * @param httpConfig
 	 * @param routes
-	 * @author WChao
+	 * @author Leo Yang
 	 */
 	public DefaultHttpRequestHandler(HttpConfig httpConfig, Routes routes) {
 		this(httpConfig);
@@ -103,7 +103,7 @@ public class DefaultHttpRequestHandler implements IHttpRequestHandler {
 	/**
 	 * 创建httpsession
 	 * @return
-	 * @author WChao
+	 * @author Leo Yang
 	 */
 	private HttpSession createSession() {
 		String sessionId = httpConfig.getSessionIdGenerator().sessionId(httpConfig);

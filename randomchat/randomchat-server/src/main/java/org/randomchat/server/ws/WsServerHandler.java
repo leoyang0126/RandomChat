@@ -40,7 +40,7 @@ import org.randomchat.server.handler.AbServerHandler;
 /**
  * 版本: [1.0]
  * 功能说明: 
- * 作者: WChao 创建时间: 2017年8月3日 下午6:38:36
+ * 作者: Leo Yang 创建时间: 2017年8月3日 下午6:38:36
  */
 public class WsServerHandler extends AbServerHandler{
 	

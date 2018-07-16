@@ -14,7 +14,7 @@ import org.randomchat.common.ImSessionContext;
 import org.tio.server.intf.ServerAioHandler;
 /**
  * 
- * @author WChao 
+ * @author Leo Yang 
  *
  */
 public class ImServerAioHandler implements ServerAioHandler {
@@ -25,7 +25,7 @@ public class ImServerAioHandler implements ServerAioHandler {
 	 * @param packet
 	 * @return
 	 * @throws Exception 
-	 * @author: Wchao
+	 * @author: Leo Yang
 	 * 2016年11月18日 上午9:37:44
 	 * 
 	 */
@@ -43,7 +43,7 @@ public class ImServerAioHandler implements ServerAioHandler {
 	 * 
 	 * @param packet
 	 * @return
-	 * @author: Wchao
+	 * @author: Leo Yang
 	 * 2016年11月18日 上午9:37:44
 	 * 
 	 */
@@ -63,7 +63,7 @@ public class ImServerAioHandler implements ServerAioHandler {
 	 * @param buffer
 	 * @return
 	 * @throws AioDecodeException
-	 * @author: Wchao
+	 * @author: Leo Yang
 	 * 2016年11月18日 上午9:37:44
 	 * 
 	 */

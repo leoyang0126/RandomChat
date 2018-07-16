@@ -14,7 +14,7 @@ public interface CmdHandlerIntf
 	/**
 	 * 
 		 * 功能描述：[命令主键]
-		 * 创建者：WChao 创建时间: 2017年7月17日 下午2:31:51
+		 * 创建者：Leo Yang 创建时间: 2017年7月17日 下午2:31:51
 		 * @return
 		 *
 	 */
@@ -25,7 +25,7 @@ public interface CmdHandlerIntf
 	 * @param channelContext
 	 * @return
 	 *
-	 * @author: WChao
+	 * @author: Leo Yang
 	 * 2016年11月18日 下午1:08:45
 	 *
 	 */

@@ -11,21 +11,21 @@ import org.randomchat.common.packets.ExitGroupNotifyRespBody;
 import org.randomchat.common.packets.RespBody;
 import org.randomchat.common.packets.User;
 /**
- * @author WChao 
+ * @author Leo Yang 
  * 2017年5月13日 下午10:38:36
  */
 public class ImGroupListener implements GroupListener{
 
 	/**
 	 * 
-	 * @author: WChao
+	 * @author: Leo Yang
 	 */
 	public ImGroupListener() {
 	}
 
 	/**
 	 * @param args
-	 * @author: WChao
+	 * @author: Leo Yang
 	 */
 	public static void main(String[] args) {
 
@@ -35,7 +35,7 @@ public class ImGroupListener implements GroupListener{
 	 * @param channelContext
 	 * @param group
 	 * @throws Exception
-	 * @author: WChao
+	 * @author: Leo Yang
 	 */
 	@Override
 	public void onAfterBind(ChannelContext channelContext, String group) throws Exception {
@@ -45,7 +45,7 @@ public class ImGroupListener implements GroupListener{
 	 * @param channelContext
 	 * @param group
 	 * @throws Exception
-	 * @author: WChao
+	 * @author: Leo Yang
 	 */
 	@Override
 	public void onAfterUnbind(ChannelContext channelContext, String group) throws Exception {

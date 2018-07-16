@@ -13,7 +13,7 @@ import java.util.Properties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 /**
- * @author WChao
+ * @author Leo Yang
  * @date 2018年3月9日 上午1:06:33
  */
 public class ServerHandlerConfigurationFactory {

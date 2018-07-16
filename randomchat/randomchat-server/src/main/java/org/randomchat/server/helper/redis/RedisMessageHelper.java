@@ -21,7 +21,7 @@ import org.randomchat.common.utils.JsonKit;
 
 /**
  * Redis获取持久化+同步消息助手;
- * @author WChao
+ * @author Leo Yang
  * @date 2018年4月9日 下午4:39:30
  */
 public class RedisMessageHelper implements IMesssageHelper,Const {

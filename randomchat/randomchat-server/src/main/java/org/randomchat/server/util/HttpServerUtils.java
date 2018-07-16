@@ -5,7 +5,7 @@ import org.randomchat.common.http.GroupContextKey;
 import org.randomchat.common.http.HttpConfig;
 import org.randomchat.common.http.HttpRequest;
 /**
- * @author WChao
+ * @author Leo Yang
  * 2017年8月18日 下午5:47:00
  */
 public class HttpServerUtils {
@@ -13,7 +13,7 @@ public class HttpServerUtils {
 	 *
 	 * @param request
 	 * @return
-	 * @author WChao
+	 * @author Leo Yang
 	 */
 	public static HttpConfig getHttpConfig(HttpRequest request) {
 		ChannelContext channelContext = request.getChannelContext();
@@ -24,7 +24,7 @@ public class HttpServerUtils {
 
 	/**
 	 * @param args
-	 * @author WChao
+	 * @author Leo Yang
 	 */
 	public static void main(String[] args) {
 
@@ -32,7 +32,7 @@ public class HttpServerUtils {
 
 	/**
 	 *
-	 * @author WChao
+	 * @author Leo Yang
 	 */
 	public HttpServerUtils() {
 	}

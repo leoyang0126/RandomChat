@@ -24,7 +24,7 @@ public class WsHandshakeProcessor implements HandshakeProcessorIntf {
 	 * @param channelContext
 	 * @return
 	 * @throws Exception
-	 * @author: Wchao
+	 * @author: Leo Yang
 	 */
 	public ImPacket handshake(ImPacket packet, ChannelContext channelContext) throws Exception {
 		WsRequestPacket wsRequestPacket = (WsRequestPacket) packet;

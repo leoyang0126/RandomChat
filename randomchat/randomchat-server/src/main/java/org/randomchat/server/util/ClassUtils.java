@@ -6,7 +6,7 @@ import org.randomchat.common.http.UploadFile;
 
 import cn.hutool.core.util.ClassUtil;
 /**
- * @author WChao 
+ * @author Leo Yang 
  * 2017年7月26日 下午6:46:11
  */
 public class ClassUtils {
@@ -14,7 +14,7 @@ public class ClassUtils {
 
 	/**
 	 * 
-	 * @author: WChao
+	 * @author: Leo Yang
 	 */
 	public ClassUtils() {
 	}
@@ -27,7 +27,7 @@ public class ClassUtils {
 
 	/**
 	 * @param args
-	 * @author: WChao
+	 * @author: Leo Yang
 	 */
 	public static void main(String[] args) {
 		log.info("");

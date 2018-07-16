@@ -7,7 +7,7 @@ import org.tio.server.intf.ServerAioListener;
 
 /**
  * 
- * @author WChao 
+ * @author Leo Yang 
  *
  */
 public class ImServerAioListener implements ServerAioListener {
@@ -15,7 +15,7 @@ public class ImServerAioListener implements ServerAioListener {
 	Logger logger = Logger.getLogger(ImServerAioListener.class);
 	
 	/**
-	 * @author: WChao
+	 * @author: Leo Yang
 	 * 2016年12月16日 下午5:52:06
 	 * 
 	 */
@@ -26,7 +26,7 @@ public class ImServerAioListener implements ServerAioListener {
 	 * @param isConnected 是否连接成功,true:表示连接成功，false:表示连接失败
 	 * @param isReconnect 是否是重连, true: 表示这是重新连接，false: 表示这是第一次连接
 	 * @throws Exception
-	 * @author: WChao
+	 * @author: Leo Yang
 	 */
 	@Override
 	public void onAfterConnected(ChannelContext channelContext, boolean isConnected, boolean isReconnect) {
@@ -39,7 +39,7 @@ public class ImServerAioListener implements ServerAioListener {
 	 * @param packet
 	 * @param isSentSuccess true:发送成功，false:发送失败
 	 * @throws Exception
-	 * @author WChao
+	 * @author Leo Yang
 	 */
 	@Override
 	public void onAfterSent(ChannelContext channelContext, Packet packet, boolean isSentSuccess) {
@@ -50,7 +50,7 @@ public class ImServerAioListener implements ServerAioListener {
 	 * @param throwable the throwable 有可能为空
 	 * @param remark the remark 有可能为空
 	 * @param isRemove
-	 * @author WChao
+	 * @author Leo Yang
 	 * @throws Exception 
 	 */
 	@Override
@@ -62,7 +62,7 @@ public class ImServerAioListener implements ServerAioListener {
 	 * @param packet
 	 * @param packetSize
 	 * @throws Exception
-	 * @author: WChao
+	 * @author: Leo Yang
 	 */
 	@Override
 	public void onAfterDecoded(ChannelContext channelContext, Packet packet,int packetSize) throws Exception {

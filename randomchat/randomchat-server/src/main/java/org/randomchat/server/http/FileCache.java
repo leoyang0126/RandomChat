@@ -2,7 +2,7 @@ package org.randomchat.server.http;
 
 import java.util.Map;
 /**
- * @author WChao
+ * @author Leo Yang
  * 2017年8月15日 下午5:44:52
  */
 public class FileCache implements java.io.Serializable {
@@ -11,7 +11,7 @@ public class FileCache implements java.io.Serializable {
 
 	/**
 	 * @param args
-	 * @author WChao
+	 * @author Leo Yang
 	 */
 	public static void main(String[] args) {
 
@@ -25,7 +25,7 @@ public class FileCache implements java.io.Serializable {
 
 	/**
 	 *
-	 * @author WChao
+	 * @author Leo Yang
 	 */
 	public FileCache() {
 	}

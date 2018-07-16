@@ -15,7 +15,7 @@ import org.tio.server.AioServer;
 
 /**
  * 
- * @author WChao
+ * @author Leo Yang
  *
  */
 @SuppressWarnings("static-access")

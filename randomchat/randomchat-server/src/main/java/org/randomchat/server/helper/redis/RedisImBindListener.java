@@ -10,7 +10,7 @@ import org.randomchat.common.cache.redis.RedisCache;
 import org.randomchat.common.cache.redis.RedisCacheManager;
 import org.randomchat.common.listener.ImBindListener;
 /**
- * @author WChao
+ * @author Leo Yang
  * @date 2018年4月8日 下午4:12:31
  */
 public class RedisImBindListener implements ImBindListener,Const{

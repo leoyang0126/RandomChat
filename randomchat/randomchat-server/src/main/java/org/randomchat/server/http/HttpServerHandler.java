@@ -33,7 +33,7 @@ import org.tio.utils.cache.guava.GuavaCache;
 /**
  * 版本: [1.0]
  * 功能说明: 
- * 作者: WChao 创建时间: 2017年8月3日 下午3:07:54
+ * 作者: Leo Yang 创建时间: 2017年8月3日 下午3:07:54
  */
 public class HttpServerHandler extends AbServerHandler{
 	
