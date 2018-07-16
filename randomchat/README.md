@@ -3,7 +3,7 @@
 [![maven最新版本](https://maven-badges.herokuapp.com/maven-central/org.j-im/jim-server/badge.svg "maven最新版本")](https://maven-badges.herokuapp.com/maven-central/org.j-im/jim-server)
 ## J-IM简介
 
- J-IM 是用JAVA语言,基于t-io开发的轻量、高性能、(可能)支持百万在线用户IM，主要目标降低即时通讯门槛，快速打造低成本接入在线IM系统，通过极简洁的消息格式就可以实现多端不同协议间的消息发送如内置(Http、Websocket、Tcp自定义IM协议)等，并提供通过http协议的api接口进行消息发送无需关心接收端属于什么协议，一个消息格式搞定一切！
+ RandomChat 是用JAVA语言,基于t-io开发的轻量、高性能、(可能)支持百万在线用户IM，主要目标降低即时通讯门槛，快速打造低成本接入在线IM系统，通过极简洁的消息格式就可以实现多端不同协议间的消息发送如内置(Http、Websocket、Tcp自定义IM协议)等，并提供通过http协议的api接口进行消息发送无需关心接收端属于什么协议，一个消息格式搞定一切！
 
 ## 主要特点
         1、高性能(单机可支持上万人同时在线)
@@ -108,13 +108,13 @@
 &nbsp;&nbsp;&nbsp;极其震撼的性能，那个每秒发送500万条聊天消息，单机支持几十万人同时在线的测试当年引起了极大争议,看看t-io用户的一则测试报告吧：[ t-io 30W长连接并发压力测试报告](https://my.oschina.net/u/2369298/blog/915435)
 
 ## 使用
-- 引入j-im(快速开发自己的高性能IM服务器),在你的pom.xml中加入如下代码片段
+- 引入randomchat(快速开发自己的高性能IM服务器),在你的pom.xml中加入如下代码片段
 ```
-<dependency>
-    <groupId>org.j-im</groupId>
-    <artifactId>jim-server</artifactId>
-    <version>1.0.1.v20180515-RELEASE</version>
-</dependency>
+ <parent>
+		<groupId>org.randomchat</groupId>
+		<artifactId>randomchat-parent</artifactId>
+		<version>1.0.1.v20180715-RELEASE</version>
+  </parent>
 ```
 
 ## J-IM一些截图
@@ -131,19 +131,15 @@
 
 ## 近期发布
 - 集群支持
-- J-IM开发文档编写(已完成)
+- RandomChat开发文档编写(已完成)
 - 官网开发
 
 ## 更多
-更多相关信息持续关注这家伙：**[t-io不仅仅百万并发框架](http://gitee.com/tywo45/t-io)** 
+更多相关信息持续关注这家伙：**[t-io不仅仅百万并发框架](https://github.com/leoyang0126/RandomChat/
 
 ## 鸣谢
-[t-io不仅仅百万并发框架](https://gitee.com/tywo45/t-io)
+[RandomChat不仅仅百万并发框架](https://github.com/leoyang0126/RandomChat/)
 
 ## 联系方式
-   个人QQ:1241503759<br>
-   个人Email:wchaojava@163.com
-
-   QQ群号：245513673 <a target="_blank"  href="//shang.qq.com/wpa/qunwpa?idkey=c876012ca4131bfdb6a32c9e5b4cde730b686fa1d20cc2ebd795a0fe2760b5d8"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="J-IM朋友圈" title="J-IM朋友圈"></a>
-
-![群二维码](https://gitee.com/uploads/images/2018/0415/131601_e2cf7bde_410355.png "1523769300727.png")
+   个人QQ:2572097002<br>
+   个人Email:leoyang0126@163.com
