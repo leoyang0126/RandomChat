@@ -11,7 +11,7 @@ import org.randomchat.common.ImAio;
 import org.randomchat.common.ImPacket;
 import org.randomchat.common.ImSessionContext;
 /**
- * @author WChao 
+ * @author Leo Yang 
  * 2017年5月13日 下午10:38:36
  */
 public class ImDemoGroupListener extends ImGroupListener{
@@ -19,7 +19,7 @@ public class ImDemoGroupListener extends ImGroupListener{
 	 * @param channelContext
 	 * @param group
 	 * @throws Exception
-	 * @author: WChao
+	 * @author: Leo Yang
 	 */
 	@Override
 	public void onAfterUnbind(ChannelContext channelContext, String group) throws Exception {

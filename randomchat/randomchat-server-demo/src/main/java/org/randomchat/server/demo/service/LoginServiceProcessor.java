@@ -24,7 +24,7 @@ import org.randomchat.common.ImSessionContext;
 import cn.hutool.core.util.RandomUtil;
 
 /**
- * @author WChao
+ * @author Leo Yang
  *
  */
 public class LoginServiceProcessor implements LoginProcessorIntf{
@@ -44,7 +44,7 @@ public class LoginServiceProcessor implements LoginProcessorIntf{
 	 * @param loginname
 	 * @param password
 	 * @return
-	 * @author: WChao
+	 * @author: Leo Yang
 	 */
 	public User getUser(String loginname, String password) {
 		String text = loginname+password;
@@ -58,7 +58,7 @@ public class LoginServiceProcessor implements LoginProcessorIntf{
 	 * 根据token获取用户信息
 	 * @param token
 	 * @return
-	 * @author: WChao
+	 * @author: Leo Yang
 	 */
 	public User getUser(String token) {
 		//demo中用map，生产环境需要用cache

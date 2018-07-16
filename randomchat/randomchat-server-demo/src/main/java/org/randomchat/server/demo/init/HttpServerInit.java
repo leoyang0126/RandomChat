@@ -8,7 +8,7 @@ import com.jfinal.kit.PropKit;
 
 /**
  * 
- * @author WChao
+ * @author Leo Yang
  *
  */
 public class HttpServerInit {
@@ -24,7 +24,7 @@ public class HttpServerInit {
 		imConfig.setHttpConfig(httpConfig);
 	}
 	/**
-	 * @author WChao
+	 * @author Leo Yang
 	 * 
 	 */
 	public HttpServerInit() {

@@ -1,4 +1,4 @@
-Date.prototype.Format = function (fmt) { //author: wchao
+Date.prototype.Format = function (fmt) { //author: Leo Yang
  var o = {
      "M+": this.getMonth() + 1, //月份 
      "d+": this.getDate(), //日 

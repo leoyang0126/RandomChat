@@ -16,7 +16,7 @@ import org.randomchat.common.utils.JsonKit;
 import org.randomchat.common.ImPacket;
 import org.randomchat.common.ImSessionContext;
 /**
- * @author WChao
+ * @author Leo Yang
  *
  */
 public class ImDemoAioListener extends ImServerAioListener{

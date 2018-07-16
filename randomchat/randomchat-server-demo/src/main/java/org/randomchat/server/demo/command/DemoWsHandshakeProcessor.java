@@ -17,7 +17,7 @@ import org.randomchat.common.ws.WsResponsePacket;
 import org.randomchat.common.ws.WsSessionContext;
 import org.randomchat.common.ImPacket;
 /**
- * @author WChao
+ * @author Leo Yang
  *
  */
 public class DemoWsHandshakeProcessor extends WsHandshakeProcessor{

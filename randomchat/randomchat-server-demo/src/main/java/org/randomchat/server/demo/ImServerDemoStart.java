@@ -18,7 +18,7 @@ import org.randomchat.server.ImServerStarter;
 import com.jfinal.kit.PropKit;
 /**
  * 
- * @author WChao
+ * @author Leo Yang
  *
  */
 public class ImServerDemoStart {
