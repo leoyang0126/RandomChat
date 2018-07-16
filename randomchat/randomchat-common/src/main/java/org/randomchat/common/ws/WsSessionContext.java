@@ -9,7 +9,7 @@ import org.tio.monitor.RateLimiterWrap;
 
 /**
  *
- * @author WChao
+ * @author Leo Yang
  *
  */
 public class WsSessionContext extends ImSessionContext {
@@ -49,7 +49,7 @@ public class WsSessionContext extends ImSessionContext {
 	/**
 	 *
 	 *
-	 * @author wchao
+	 * @author Leo Yang
 	 * 2017年2月21日 上午10:27:54
 	 *
 	 */

@@ -24,7 +24,7 @@ import cn.hutool.core.bean.BeanUtil;
 /**
  * 版本: [1.0]
  * 功能说明: 
- * 作者: WChao 创建时间: 2017年9月22日 上午9:07:18
+ * 作者: Leo Yang 创建时间: 2017年9月22日 上午9:07:18
  */
 public class ImAio {
 	
@@ -33,7 +33,7 @@ public class ImAio {
 	private static Logger log = LoggerFactory.getLogger(ImAio.class);
 	/**
 	 * 功能描述：[根据用户ID获取当前用户]
-	 * 创建者：WChao 创建时间: 2017年9月18日 下午4:34:39
+	 * 创建者：Leo Yang 创建时间: 2017年9月18日 下午4:34:39
 	 * @param groupContext
 	 * @param userid
 	 * @return
@@ -62,7 +62,7 @@ public class ImAio {
 	/**
 	 * 
 		 * 功能描述：[根据用户ID获取当前用户所在通道集合]
-		 * 创建者：WChao 创建时间: 2017年9月18日 下午4:34:39
+		 * 创建者：Leo Yang 创建时间: 2017年9月18日 下午4:34:39
 		 * @param groupContext
 		 * @param userid
 		 * @return
@@ -75,7 +75,7 @@ public class ImAio {
 	/**
 	 * 
 		 * 功能描述：[获取所有用户(在线+离线)]
-		 * 创建者：WChao 创建时间: 2017年9月18日 下午4:31:54
+		 * 创建者：Leo Yang 创建时间: 2017年9月18日 下午4:31:54
 		 * @param groupContext
 		 * @return
 		 *
@@ -108,7 +108,7 @@ public class ImAio {
 	/**
 	 * 
 		 * 功能描述：[获取所有在线用户]
-		 * 创建者：WChao 创建时间: 2017年9月18日 下午4:31:42
+		 * 创建者：Leo Yang 创建时间: 2017年9月18日 下午4:31:42
 		 * @param groupContext
 		 * @return
 		 *
@@ -140,7 +140,7 @@ public class ImAio {
 	}
 	/**
 	 * 功能描述：[发送到群组(所有不同协议端)]
-	 * 创建者：WChao 创建时间: 2017年9月21日 下午3:26:57
+	 * 创建者：Leo Yang 创建时间: 2017年9月21日 下午3:26:57
 	 * @param groupContext
 	 * @param group
 	 * @param packet

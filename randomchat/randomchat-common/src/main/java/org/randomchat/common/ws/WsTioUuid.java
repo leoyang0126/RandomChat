@@ -6,7 +6,7 @@ import cn.hutool.core.lang.Snowflake;
 import cn.hutool.core.util.RandomUtil;
 
 /**
- * @author WChao
+ * @author Leo Yang
  * 2017年6月5日 上午10:44:26
  */
 public class WsTioUuid implements TioUuid {
@@ -22,7 +22,7 @@ public class WsTioUuid implements TioUuid {
 
 	/**
 	 * @return
-	 * @author wchao
+	 * @author Leo Yang
 	 */
 	@Override
 	public String uuid() {

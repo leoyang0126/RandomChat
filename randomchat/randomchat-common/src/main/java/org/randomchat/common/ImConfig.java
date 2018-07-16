@@ -9,7 +9,7 @@ import org.randomchat.common.ws.WsServerConfig;
 import org.tio.core.GroupContext;
 import org.tio.core.intf.GroupListener;
 /**
- * @author WChao
+ * @author Leo Yang
  *
  */
 public class ImConfig {

@@ -6,7 +6,7 @@ import org.tio.server.intf.ServerAioHandler;
 
 /**
  * 
- * @author wchao 
+ * @author Leo Yang 
  *
  */
 public class ImSessionContext extends SessionContext
@@ -27,7 +27,7 @@ public class ImSessionContext extends SessionContext
 	/**
 	 * 
 	 *
-	 * @author: wchao
+	 * @author: Leo Yang
 	 * 2017年2月21日 上午10:27:54
 	 * 
 	 */

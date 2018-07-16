@@ -8,7 +8,7 @@ import org.randomchat.common.packets.Command;
 
 /**
  * 
- * @author wchao 
+ * @author Leo Yang 
  *
  */
 public class CommandStat
@@ -48,7 +48,7 @@ public class CommandStat
 	/**
 	 * 
 	 *
-	 * @author: wchao
+	 * @author: Leo Yang
 	 * 2016年12月6日 下午5:32:31
 	 * 
 	 */
@@ -59,7 +59,7 @@ public class CommandStat
 	/**
 	 * @param args
 	 *
-	 * @author: wchao
+	 * @author: Leo Yang
 	 * 2016年12月6日 下午5:32:31
 	 * 
 	 */

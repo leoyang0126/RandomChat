@@ -21,7 +21,7 @@ import org.tio.core.exception.AioDecodeException;
 import org.tio.core.utils.ByteBufferUtils;
 /**
  *
- * @author wchao
+ * @author Leo Yang
  * 2017年7月30日 上午10:10:50
  */
 public class WsServerDecoder {
@@ -175,7 +175,7 @@ public class WsServerDecoder {
 	 * @param request
 	 * @param channelContext
 	 * @return
-	 * @author wchao
+	 * @author Leo Yang
 	 */
 	public static HttpResponse updateWebSocketProtocol(HttpRequest request, ChannelContext channelContext) {
 		Map<String, String> headers = request.getHeaders();
@@ -203,7 +203,7 @@ public class WsServerDecoder {
 	/**
 	 *
 	 *
-	 * @author wchao
+	 * @author Leo Yang
 	 * 2017年2月22日 下午4:06:42
 	 *
 	 */

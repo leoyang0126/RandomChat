@@ -2,12 +2,12 @@ package org.randomchat.common;
 
 /**
  * 
- * @author wchao 
+ * @author Leo Yang 
  *
  */
 public interface Const
 {
-	public static final String authkey = "wchao";
+	public static final String authkey = "leoyang";
 	
 	public static final int SERVER_PORT = 8888;
 	
