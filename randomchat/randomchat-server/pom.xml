@@ -8,7 +8,7 @@
 		<groupId>org.randomchat</groupId>
 		<artifactId>randomchat-parent</artifactId>
 		<version>1.0.1.v20180515-RELEASE</version>
-		<relativePath>../jim-parent/pom.xml</relativePath>
+		<relativePath>../randomchat-parent/pom.xml</relativePath>
   </parent>
   <dependencies>
 	  <dependency>
